@@ -25,12 +25,11 @@ This project offers numerous applications, such as enabling accessibility for in
 
 As I continue my journey of learning and growth, I plan to expand this project by incorporating features like real-time voice recognition, support for multiple languages, and integration with other tools and platforms. Stay tuned for more exciting developments in the world of voice-to-text conversion!
 
+<img width="5" alt="Screenshot 2023-08-14 at 8 09 50 PM" src="https://github.com/Siranjeevis012/Voice_To_Text/assets/138126113/2d72ae2e-bae0-4d6d-8138-23e7517bea1a">
+
 **Project Integration:**
 
 You can experience this project in action on my portfolio website's https://sites.google.com/view/siranjeevi project page. The code is integrated into the index.html file, showcasing both the practicality of voice-to-text conversion and my skills in web development.
 
-<img width="5" alt="Screenshot 2023-08-14 at 8 09 50 PM" src="https://github.com/Siranjeevis012/Voice_To_Text/assets/138126113/242917fc-78ab-4581-8c8b-b50eba0d4f58">
-
 This project is a testament to my commitment to staying on the cutting edge of technology and leveraging it to create practical solutions that enhance accessibility and efficiency in today's fast-paced world.
 
-<img width="5" alt="Screenshot 2023-08-14 at 8 09 50 PM" src="https://github.com/Siranjeevis012/Voice_To_Text/assets/138126113/242917fc-78ab-4581-8c8b-b50eba0d4f58.png">
