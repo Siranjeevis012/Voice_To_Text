@@ -33,4 +33,4 @@ You can experience this project in action on my portfolio website's https://site
 
 This project is a testament to my commitment to staying on the cutting edge of technology and leveraging it to create practical solutions that enhance accessibility and efficiency in today's fast-paced world.
 
-<img width="5" alt="Screenshot 2023-08-14 at 8 09 50 PM" src="https://github.com/Siranjeevis012/Voice_To_Text/assets/138126113/242917fc-78ab-4581-8c8b-b50eba0d4f58">
+<img width="5" alt="Screenshot 2023-08-14 at 8 09 50 PM" src="https://github.com/Siranjeevis012/Voice_To_Text/assets/138126113/242917fc-78ab-4581-8c8b-b50eba0d4f58.png">
