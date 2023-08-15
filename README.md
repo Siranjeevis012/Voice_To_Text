@@ -3,7 +3,7 @@
  Voice To Text Convertor
 I harnessed Google Cloud's Speech-to-Text API in Python to transform spoken words into written text, unlocking accessibility and transcription possibilities. Witness the fusion of cloud technology and machine learning on my portfolio's project page. 
 
-
+LIVE PREVIEW - https://siranjeevis012.github.io/Voice_To_Text/voice_to_text.html
 
 **Project Overview:**
 
