@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice-to-Text</title>
+</head>
+<body>
+    <h1>Voice Recognition in Action</h1>
+    <h3><em>Say something....</em></h3>
+    <button id="startButton" onclick="startRecognition()">Start Listening</button>
+    <button id="stopButton" onclick="stopRecognition()" disabled>Stop Listening</button>
+    <div id="transcription"></div>
+
+    <script>
+        let recognition;
+
+        function startRecognition() {
+            if ('webkitSpeechRecognition' in window) {
+                recognition = new webkitSpeechRecognition();
+                recognition.continuous = true;
+                recognition.interimResults = true;
+
+                const startButton = document.getElementById('startButton');
+                const stopButton = document.getElementById('stopButton');
+                const transcription = document.getElementById('transcription');
+
+                startButton.disabled = true;
+                stopButton.disabled = false;
+
+                recognition.onresult = (event) => {
+                    let interimTranscript = '';
+                    let finalTranscript = '';
+
+                    for (let i = event.resultIndex; i < event.results.length; i++) {
+                        const transcript = event.results[i][0].transcript;
+
+                        if (event.results[i].isFinal) {
+                            finalTranscript += transcript + ' ';
+                        } else {
+                            interimTranscript += transcript;
+                        }
+                    }
+
+                    const sentence = document.createElement('p');
+                    sentence.textContent = finalTranscript;
+                    transcription.appendChild(sentence);
+                };
+
+                recognition.onerror = (event) => {
+                    console.error('Error occurred in recognition:', event.error);
+                };
+
+                recognition.onend = () => {
+                    startButton.disabled = false;
+                    stopButton.disabled = true;
+                };
+
+                recognition.start();
+            } else {
+                alert('Your browser does not support the Web Speech API.');
+            }
+        }
+
+        function stopRecognition() {
+            if (recognition) {
+                recognition.stop();
+            }
+        }
+    </script>
+
+<footer style="text-align: center; position: absolute; bottom: 0; width: 100%;">
+    <p>&copy; 2023 Siranjeevi_be. All rights reserved. | <a href="https://sites.google.com/view/siranjeevi">Visit My Website</a></p>
+</footer>
+</body>
+</html>
