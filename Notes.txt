@@ -1,11 +1,2 @@
 step - 1 (terminal)
 pip install google-cloud-speech
-
-step -2
-click extension
-search live server
-install live server
-
-Step -3
-right click voice_to_text.html
-select open with live server
